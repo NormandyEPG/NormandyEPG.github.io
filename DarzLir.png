@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+	<![CDATA[
+
+		@-webkit-keyframes crossfade {
+			0% {opacity:1} 
+			45.833% {opacity:1} 
+			50% {opacity:0} 
+			95.833% {opacity:0} 
+			100% {opacity:1}
+		}
+
+		@keyframes crossfade {
+			0% {opacity:1} 
+			45.833% {opacity:1} 
+			50% {opacity:0} 
+			95.833% {opacity:0} 
+			100% {opacity:1}
+		}
+
+		image {
+		   animation-name: crossfade;
+		   animation-duration: 12s;
+		   animation-timing-function: ease-in-out;
+		   animation-iteration-count: infinite;
+		}
+
+		image:nth-of-type(2) {
+			animation-delay: 0s;
+		}
+
+		image:nth-of-type(1) {
+			animation-delay: 6s;
+		}
+
+	]]>
+</style>
+<image id="psn" x="0" y="0" width="425" height="142" xlink:href="https://card.psnprofiles.com/1/DarzLir.png"></image>
+<image id="steam" x="0" y="0" width="400" height="120" xlink:href="http://www.steamsignature.com/card/0/76561198378088537.png"></image>
+</svg>
